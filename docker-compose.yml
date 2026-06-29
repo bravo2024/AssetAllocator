@@ -1,0 +1,9 @@
+services:
+  assetallocator:
+    build: .
+    container_name: assetallocator
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

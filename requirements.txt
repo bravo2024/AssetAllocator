@@ -1,0 +1,12 @@
+# --- core (required) ---
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+streamlit>=1.30
+plotly>=5.18
+yfinance>=0.2.40
+matplotlib>=3.7
+
+# --- dev / test / deploy ---
+pytest>=7.4
+ruff>=0.4
