@@ -4,8 +4,6 @@
 
 A quant-grade Streamlit app that pulls real prices from Yahoo Finance, optimises portfolio weights with SciPy, computes the full risk metric stack (VaR, CVaR, Sharpe, Sortino, Calmar, drawdown), and simulates correlated Geometric Brownian Motion paths for forward-looking risk assessment.
 
-## Why this project
-
 Production-style end-to-end workflow:
 - Real data pipeline (yfinance + SQLite cache)
 - Modular `src/` layout (`data`, `calculations`, `simulation`, `visualizations`)
